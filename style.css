@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+header {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    height: 500px;
+    margin: 10px 0;
+}
+nav ul{
+    background: #fff;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: flex-start;
+    height: 50px;
+    list-style: none;
+    padding: 10px 20px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    width: 40%;
+    padding: 5px 50px;
+    margin-left: 50px;
+}
+.search {
+    margin-left: 50px;
+}
+form{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    margin-left: 50px;
+}
+input {
+    width: 30%;
+    height: 50px;
+}
+.button {
+    background-color: rgba(255, 131, 0, 1);
+    border: none;
+    color: white;
+    height: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.about {
+    color: rgba(255, 131, 0, 1);
+}
+.discover {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(images/fruits.jpg);
+    background-size: cover;
+}
+.story {
+    background-color: rgba(244, 247, 218, .5);
+    padding: 1em;
+    height: 100%;
+    width: 60%;
+    padding: 20px;
+}
+.container-order, .testimonials{
+    background: rgba(242, 224, 207, 0.5);
+    padding: 5%;
+}
+.order, .specialty{
+    display: flex;
+    justify-content: center;
+}
+.options ul{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 30%;
+    flex-wrap: wrap;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+img {
+    height: 300px;
+    width: 200px;
+}
+.food-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    width: 70%;
+    gap: 20px;
+}
+.container-hours, .testimonials{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    align-items: center;
+    padding: 5%;
+}
+.left-hours {
+    align-self: flex-start;
+}
+.right-hours {
+    align-self: flex-end;
+}
+.books {
+    height: 250px;
+    width: 400px;
+}
+.customer {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.customer-name {
+    font-weight: 500;
+}
+.art {
+    font-size: small;
+    color: #333;
+}
